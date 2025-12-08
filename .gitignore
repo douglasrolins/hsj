@@ -1,0 +1,14 @@
+/bin/
+.metadata
+local.properties
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.war
+*.ear
+*.class
+*.jpage
+*.classpath
+*.project
+*.DS_Store
