@@ -55,8 +55,8 @@ public class SimJoin
 			System.out.println("  runTimes    = Number of repeated executions");
 			System.out.println("  printResult = Whether to print resulting join pairs (true/false)");
 			System.out.println("  M           = HNSW parameter M (max edges per node)");
-			System.out.println("  efS         = HNSW search parameter efSearch");
-			System.out.println("  efC         = HNSW construction parameter efConstruction");
+			System.out.println("  ef         = HNSW search parameter efSearch");
+			System.out.println("  efConstruction         = HNSW construction parameter efConstruction");
 			System.exit(1);
 		}
 
