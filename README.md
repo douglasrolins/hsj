@@ -93,7 +93,7 @@ javac -cp ".:lib/*" -d bin $(find src -name "*.java")
 ### 3. Run
 
 ```bash
-java -cp "bin:lib/*" SimJoin plan=hsj-ext fileDir=data/siftsmall_base.fvecs threshold=0.9 runTimes=1
+java -cp "bin:lib/*" SimJoin plan=hsj-ext fileDir=data/sample/siftsmall_base.fvecs threshold=0.9 runTimes=1
 ```
 
 ---
@@ -119,7 +119,7 @@ java -cp "bin:lib/*" SimJoin plan=hsj-ext fileDir=data/siftsmall_base.fvecs thre
 ### Basic usage
 
 ```bash
-java -cp "bin:lib/*" SimJoin plan="hsj-ext" fileDir=data/siftsmall_base.fvecs threshold=0.75 printResult=true > results.txt
+java -cp "bin:lib/*" SimJoin plan="hsj-ext" fileDir=data/sample/siftsmall_base.fvecs threshold=0.75 printResult=true > results.txt
 ```
 
 ### Full configuration
@@ -138,7 +138,7 @@ java -cp "bin:lib/*" SimJoin \
 ### With HDF5 format
 
 ```bash
-java -cp "bin:lib/*" SimJoin plan=hsj-inc fileDir=data/sift-128-euclidean-10k-sample.hdf5 datasetHdf5=train threshold=0.80 runTimes=1
+java -cp "bin:lib/*" SimJoin plan=hsj-inc fileDir=data/sample/sift-128-euclidean-10k-sample.hdf5 datasetHdf5=train threshold=0.80 runTimes=1
 ```
 
 ---
